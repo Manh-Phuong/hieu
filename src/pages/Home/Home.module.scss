@@ -1,0 +1,37 @@
+.wrap {
+    min-height: calc(100vh);
+    // background-color: var(--primary);
+    // color:  var(--white-color);
+    padding: 60px 120px;
+    text-align: left;
+    .region {
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border-radius: 12px;
+        padding: 32px;
+
+        .title {
+            font-size: 18px;
+            font-weight: 600;
+        }
+        .region-body {
+            margin-top: 24px;
+            text-align: center;
+        }
+    }
+
+    .transactions {
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border-radius: 12px;
+        padding: 32px;
+        margin-top: 32px;
+
+        .title {
+            font-size: 18px;
+            font-weight: 600;
+        }
+        .transactions-body {
+            margin-top: 24px;
+            text-align: center;
+        }
+    }
+}
